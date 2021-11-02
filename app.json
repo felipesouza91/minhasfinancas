@@ -1,11 +1,27 @@
 {
+  "displayName": "GoFinance",
   "expo": {
     "name": "gofinances",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#5636D3"
+    },
     "slug": "gofinances",
+    "scheme": "gofinances",
     "version": "1.0.0",
+    "ios": {
+      "bundleIdentifier": "com.gofinances",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.gofinances",
+      "versionCode": 1
+    },
     "assetBundlePatterns": [
       "**/*"
-    ]
-  },
-  "name": "gofinances"
+    ],
+    "description": "Rocketseat final challanger in ReactNative."
+  }
 }
